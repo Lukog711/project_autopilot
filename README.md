@@ -224,7 +224,7 @@ The resulting state is conceptually:
 
 ```text
                     ┌──────────────┐
-                    │ System fault│
+                    │ System fault │
                     └──────┬───────┘
                            │
                            ▼
