@@ -1,0 +1,92 @@
+# ============================================================
+# ROS 2
+# ============================================================
+
+build/
+install/
+log/
+
+# ROS 2 generated files
+*.db3
+
+# ============================================================
+# C / C++
+# ============================================================
+
+*.o
+*.obj
+*.so
+*.a
+*.la
+*.dylib
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# ============================================================
+# IDEs
+# ============================================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============================================================
+# Operating system
+# ============================================================
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# ============================================================
+# Project-specific generated data
+# ============================================================
+
+network_metrics.csv
+*.bag
+*.db3
+*.log
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Model files
+*.pt
+*.onnx
+*.engine
+
+# Local configuration
+cyclonedds_shm.xml
+
+# ROS logs
+ros_logs/
